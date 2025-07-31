@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+
+  images: {
+    remotePatterns: [
+      new URL('https://www.giantbomb.com/**')
+    ]
+  }
+
+};
 
 export default nextConfig;
